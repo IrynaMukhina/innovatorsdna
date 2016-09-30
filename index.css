@@ -4,18 +4,14 @@
 }
 
 body {
-    width: 1000px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto  
+  
 }
 
 header {
     
 }
 
-#menu * {
-    width: 100%;
+.menu * {
     color: #747070;
     display: inline;
     background-color: #f2f1f1;
@@ -27,12 +23,13 @@ header {
     margin-right: auto;
 }
 
-#menu :hover {
+.menu :hover {
     color: #000000;
     background-color: #fdf5f5;
     cursor:pointer;
     font-size: 15;
-    font-family: Arial bold;
+    font-family: Arial;
+    font-weight: bold;
 }
 
 li {
@@ -45,6 +42,27 @@ main {
 
 .hidden {
     display: none;
+}
+
+#facebook {
+    background-image: url(iconmonstr-facebook-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #747070;
+}
+
+#twitter {
+    background-image: url(iconmonstr-twitter-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #747070;
+}
+
+#linkedin {
+    background-image: url(iconmonstr-linkedin-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #747070;
 }
 
 .table {
