@@ -1,3 +1,19 @@
-body {
-    background-color: blue;
+* {
+    margin: 0 auto;
+    padding: 0;
 }
+header {
+        width: 970px;
+}
+
+#menu * {
+    display: inline;
+    background-color: #f2f1f1;
+    font-size: 15;
+    font-family: Arial;
+}
+
+main {
+    
+}
+
