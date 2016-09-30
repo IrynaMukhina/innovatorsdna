@@ -8,7 +8,9 @@ body {
 }
 
 header {
-       
+    display: block;
+    margin-left: auto;
+    margin-right: auto  
 }
 
 #menu * {
@@ -26,11 +28,10 @@ header {
 
 #menu :hover {
     color: #000000;
-    font-family: bold;
     background-color: #fdf5f5;
     cursor:pointer;
     font-size: 15;
-    font-family: Arial;
+    font-family: Arial bold;
 }
 
 li {
