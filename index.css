@@ -4,14 +4,15 @@
 }
 
 body {
-    
+     width: 1000px;
 }
 
 header {
-        width: 970px;
+       
 }
 
 #menu * {
+    width: 100%;
     color: #747070;
     display: inline;
     background-color: #f2f1f1;
