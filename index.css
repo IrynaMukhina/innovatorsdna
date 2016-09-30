@@ -23,7 +23,7 @@ header {
     margin-right: auto;
 }
 
-#menu:hover {
+li:hover {
     color: #000000;
 }
 
