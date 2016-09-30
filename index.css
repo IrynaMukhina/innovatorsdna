@@ -29,6 +29,8 @@ header {
     font-family: bold;
     background-color: #fdf5f5;
     cursor:pointer;
+    font-size: 15;
+    font-family: Arial;
 }
 
 li {
