@@ -12,6 +12,7 @@ header {
 }
 
 #menu * {
+    color: #747070;
     display: inline;
     background-color: #f2f1f1;
     font-size: 15;
@@ -21,6 +22,11 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+#menu:hover {
+    color: #000000;
+}
+
 li {
     text-align: center;
 }
