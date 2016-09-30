@@ -25,6 +25,7 @@ header {
 
 #menu :hover {
     color: #000000;
+    font-family: bold;
     background-color: #fdf5f5;
     cursor:pointer;
 }
