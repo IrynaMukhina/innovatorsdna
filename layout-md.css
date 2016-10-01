@@ -11,7 +11,7 @@ header {
 
 .menu * {
     color: #747070;
-    display: inline;
+    display: inline flex;
     background-color: #f2f1f1;
     font-size: 15;
     font-family: Arial;
@@ -65,8 +65,7 @@ main {
 }
 
 nav {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .table {
