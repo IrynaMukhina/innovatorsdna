@@ -62,6 +62,10 @@ main {
     color: #747070;
 }
 
+nav {
+    max-width: 1000px;
+}
+
 .table {
     
     
