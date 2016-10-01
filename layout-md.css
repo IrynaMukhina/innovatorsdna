@@ -45,7 +45,7 @@ main {
     background-image: url(iconmonstr-facebook-1.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #747070;
+    color: #747070;
 }
 
 #twitter {
@@ -59,7 +59,7 @@ main {
     background-image: url(iconmonstr-linkedin-1.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #747070;
+    color: #747070;
 }
 
 .table {
