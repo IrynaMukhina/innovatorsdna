@@ -1,33 +1,33 @@
 body {
     max-width: 1000px;
     margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
+    background: url(fon.jpg);
 }
 
-header {
-    
+nav {
+   
 }
 
 .menu * {
+    display: flex;
     color: #747070;
-    display: inline flex;
+    display: inline-block;
     background-color: #f2f1f1;
     font-size: 15;
     font-family: Arial;
     display: table-cell;
     padding:30px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%
+    
+    
 }
 
 .menu :hover {
     color: #000000;
     background-color: #fdf5f5;
-    cursor:pointer;
+    cursor: pointer;
     font-size: 15;
     font-family: Arial;
-    font-weight: bold;
 }
 
 li {
@@ -35,16 +35,7 @@ li {
 }
 
 #button :hover {
-    cursor:pointer;
-}
-
-
-main {
-    
-}
-
-.hidden {
-    display: none;
+    cursor: pointer;
 }
 
 #facebook {
@@ -68,9 +59,33 @@ main {
     color: #747070;
 }
 
-nav {
-    margin: auto;
+main {
+    ;
 }
+
+#img {
+    width: 100%;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+    width: 100%;
+}
+
+article {
+    position: absolute;
+    top: 60%;
+	left: 15%;
+	width: 30%;
+	color: #ffffff;
+	font-size: 20;
+}
+
+#pink {
+    color: #f0217f;
+}
+
 
 .table {
     
