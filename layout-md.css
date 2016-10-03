@@ -75,8 +75,8 @@ main {
 
 article {
     position: absolute;
-    top: 60%;
-	left: 15%;
+    bottom: 100px;
+	left: 10%;
 	width: 30%;
 	color: #ffffff;
 	font-size: 20;
