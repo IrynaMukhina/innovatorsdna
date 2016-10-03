@@ -1,5 +1,5 @@
 body {
-    max-width: 1000px;
+    max-width: 920px;
     margin: 0 auto;
     background: url(fon.jpg);
 }
@@ -83,7 +83,7 @@ article {
 }
 
 #pink {
-    color: #f0217f;
+    color: #f40b52;
 }
 
 
