@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-
+    display: flex;
 }
 
 .menu * {
@@ -33,7 +33,7 @@ li {
 }
 
 .buttons {
-    
+    justify-content: flex-start;
 }
 
 #facebook {
@@ -77,7 +77,7 @@ article {
 	left: 17%;
 	width: 60%;
 	color: #ffffff;
-	font-size: 22;
+	font-size: 30;
 }
 
 #pink {
@@ -85,7 +85,10 @@ article {
 }
 
 
+section1 {
+    display: flex;
+}
+
 .table {
-    
     
 }
