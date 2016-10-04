@@ -9,7 +9,7 @@ nav {
 }
 
 .menu * {
-    display: flex;
+    position: absolute;
     color: #747070;
     display: inline-block;
     display: table-cell;
@@ -34,7 +34,8 @@ li {
 }
 
 .buttons {
-    transform: translate(600px 30px);
+    position: relative;
+    transform: translate(500px, 30px);
 }
 
 #facebook {
