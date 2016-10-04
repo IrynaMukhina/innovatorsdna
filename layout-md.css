@@ -12,11 +12,10 @@ nav {
     display: flex;
     color: #747070;
     display: inline-block;
+    display: table-cell;
     background-color: #f2f1f1;
     font-size: 15;
     font-family: Arial;
-    display: table-cell;
-    display: flex;
     padding: 30px;
     width: 100%
     
