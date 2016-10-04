@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-   
+
 }
 
 .menu * {
@@ -15,11 +15,9 @@ nav {
     display: table-cell;
     background-color: #f2f1f1;
     font-size: 15;
-    font-family: Arial;
+    font-family: Roboto Arial;
     padding: 30px;
     width: 100%
-    
-    
     
 }
 
@@ -28,15 +26,15 @@ nav {
     background-color: #fdf5f5;
     cursor: pointer;
     font-size: 15;
-    font-family: Arial;
+    font-family: Roboto Arial;
 }
 
 li {
     text-align: center;
 }
 
-#button :hover {
-    cursor: pointer;
+.buttons {
+    transform: translate(600px 30px);
 }
 
 #facebook {
