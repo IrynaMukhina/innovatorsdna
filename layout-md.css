@@ -77,7 +77,7 @@ article {
 	left: 17%;
 	width: 60%;
 	color: #ffffff;
-	font-size: 30;
+	font-size: 20;
 }
 
 #pink {
@@ -88,9 +88,8 @@ article {
 section {
     display: flex;
     width: 100%;
-    flex-flow: column wrap;
 }
 
 .table {
-
+    float: left;
 }
