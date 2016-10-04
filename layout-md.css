@@ -16,8 +16,10 @@ nav {
     font-size: 15;
     font-family: Arial;
     display: table-cell;
+    display: flex;
     padding: 30px;
     width: 100%
+    
     
     
 }
@@ -76,8 +78,8 @@ main {
 article {
     position: absolute;
     bottom: 15%;
-	left: 20%;
-	width: 500px;
+	left: 17%;
+	width: 60%;
 	color: #ffffff;
 	font-size: 22;
 }
