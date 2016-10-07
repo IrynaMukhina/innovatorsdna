@@ -14,3 +14,12 @@ section {
 aside {
     background-color: purple;
 }
+section.started {
+    background-color: pink;
+}
+section.discover {
+    background-color: orange;
+}
+section.news {
+    background-color: gray;
+}
