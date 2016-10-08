@@ -6,7 +6,6 @@ body {
 
 nav {
     display: flex;
-    flex-flow: row wrap;
 }
 
 .menu * {
@@ -33,10 +32,6 @@ li {
     text-align: center;
 }
 
-.buttons {
-    justify-content: flex-end;
-}
-
 #facebook {
     background-image: url(iconmonstr-facebook-1.svg);
     background-repeat: no-repeat;
@@ -58,13 +53,16 @@ li {
     color: #747070;
 }
 
+.buttons {
+    justify-content: flex-end;
+}
+
 main {
-    ;
+    
 }
 
 #img {
     width: 100%;
-    position: relative;
 }
 
 .hidden {
@@ -73,24 +71,24 @@ main {
 }
 
 article {
-    position: absolute;
-    bottom: 15%;
-	left: 17%;
+    position: relative;
+    bottom: 100 px;
+	left: 20px;
 	width: 60%;
 	color: #ffffff;
-	font-size: 20;
+	font-size: 20px;
 }
 
 #pink {
     color: #f40b52;
 }
 
-
 section {
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
 .table {
-    
+    margin: 0;
 }

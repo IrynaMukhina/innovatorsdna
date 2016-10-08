@@ -8,6 +8,9 @@ nav {
 main {
     background-color: yellow;
 }
+article {
+    background-color: brown;
+}
 section {
     background-color: green;
 }
@@ -21,5 +24,11 @@ section.discover {
     background-color: orange;
 }
 section.news {
+    background-color: yellow;
+}
+section.address {
     background-color: gray;
+}
+footer {
+    background-color: navy;
 }
