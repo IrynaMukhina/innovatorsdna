@@ -1,3 +1,11 @@
+#img {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+    width: 100%;
+}
 .table {
     display: none;
 }

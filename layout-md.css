@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    display: flex;
+
 }
 
 .menu * {
@@ -13,11 +13,10 @@ nav {
     display: inline-block;
     display: table-cell;
     background-color: #f2f1f1;
-    font-size: 15;
+    font-size: 15px;
     font-family: Roboto Arial;
     padding: 30px;
     width: 100%
-    
 }
 
 .menu :hover {
@@ -53,8 +52,11 @@ li {
     color: #747070;
 }
 
-.buttons {
+nav.buttons {
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: flex-end;
+    
 }
 
 main {
@@ -71,9 +73,7 @@ main {
 }
 
 article {
-    position: relative;
-    bottom: 100 px;
-	left: 20px;
+
 	width: 60%;
 	color: #ffffff;
 	font-size: 20px;
