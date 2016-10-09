@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>MyProject</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" media="(min-width: 321px)" href="layout-md.css"/>
         <link rel="stylesheet" media="(max-width: 320px)" href="layout-sm.css">
@@ -12,79 +13,90 @@
                 <li>Anti-aging</li>
                 <li>Nutrigenetics</li>
                 <li>Sport</li>
-                <li class="hiddenmenu">Hairloss</li>
-                <li class="hiddenmenu">Sciance</li>
-                <li class="hiddenmenu">Centers</li>
+                <li>Hairloss</li>
+                <li>Sciance</li>
+                <li>Centers</li>
                 <li id="facebook"></li>
                 <li id="twitter"></li>
                 <li id="linkedin"></li>
             </ul>
             </nav>
-            <nav>
-              <select name="location" class="buttons">
+            <nav class="buttons">
+              <select name="location">
                 <option value="English">Global-English</option>
                 <option value="Asia">Asia</option>
                 <option value="Europa">Europa</option>
                 <option value="USA">USA</option>
               </select>
-              <button type="button" class="buttons">Contact Us</button>
+              <button type="button">Contact Us</button>
             </nav>
         
         <main>
-            <img src="layer_1-1.jpg" alt=girl1 id="img">
-            <img src="layer_2-2.jpg" alt=girl2 class="hidden">
-            <img src="layer_3-3.jpg" alt=girl3 class="hidden">
-            <img src="layer_4-4.jpg" alt=girl4 class="hidden">
+            <div>
+                <h1 id="title">Discover your <span id="pink">DNA-lifestyle!</span></h1>
+                <p>Aging is a normal, irreversible process. It's biological and chronological. When it comes to you now you can experiance the ultimate luxury - aging better</p>
+            </div>
         </main>
         
-        <article>
-            <h1 id="title">Discover your <span id="pink">DNA-lifestyle!</span></h1>
-            <p>Aging is a normal, irreversible process. It's biological and chronological. When it comes to you now you can experiance the ultimate luxury - aging better</p>
-        </article>
+        <section class="place"></section>
         
-        <section>
-                <div class="table">It's ABOUT YOU</div>
-                <div class="table"><img src="table_1.jpg" alt="table1"></div>
-                <div class="table"><img src="table_2.jpg" alt="table2"></div>
-                <div class="table"><img src="table_3.jpg" alt="table3"></div>
-                <div class="table"><img src="table_4.jpg" alt="table4"></div>
-                <div class="table"><img src="table_5.jpg" alt="table5"></div>
-                <div class="table"><img src="table_6.jpg" alt="table6"></div>
-                <div class="table">MORE INFO</div>
+        <section class="table">
+                <div class="text">
+                    <span class="center">It's ABOUT YOU</span>
+                </div>
+                <div class="img"><img src="table_1.jpg" alt="table1"></div>
+                <div class="img"><img src="table_2.jpg" alt="table2"></div>
+                <div class="img"><img src="table_3.jpg" alt="table3"></div>
+                <div class="img"><img src="table_4.jpg" alt="table4"></div>
+                <div class="img"><img src="table_5.jpg" alt="table5"></div>
+                <div class="img"><img src="table_6.jpg" alt="table6"></div>
+                <div class="text">
+                    <span class="center">MORE INFO</span>
+                </div>
         </section>
         
+        <section class="place"></section>
+        
         <aside>
-                <div><img src="table_.jpg" alt="DNA"></div>
-                <div>
+                <div id="chapter-img"><img src="table_.jpg" alt="DNA"></div>
+                <div class="chapter">
                     <h3>INNOVATIVE</h3>
                     <p>iDDNA is the only solution in the world that looks at your gened, environment and lifestyle for an optimized anti-aging solution based on your real biological age</p>
-                </div>
-                <div>
                     <h3>RELIABLE</h3>
                     <p>Our scientists have searched the world for the most effective ingredience for your personal needs, regardiess of who makes them or where they are made</p>
-                </div>
-                <div>
                     <h3>EXCLUSIVE</h3>
                     <p>It is genetically-guided by your DNA. Our experts will map your genes and adjust the correct dosage of the best active ingredients</p>
-                </div>
-                <div>
                     <h3>REVOLUTIONARY</h3>
                     <p>Your iDDNA recommends you the best of every anti-aging treatment, and the best frequency according to your particular needs</p>
                 </div>
         </aside>
+        
+        <section class="place"></section>
+        
         <section class="started">
-            <h4>GET STARTED!</h4>
-            <p>Your DNA is a next generation anti-aging, designed on your individual DNA Age (your real biological age) to help you look and live better
-            <br>IDDNA WORKS BACAUSE IT'S COMPLETELY PERSONALIZED
-            <br>Although you can not change your genetics, science has now proven that you can dramatically change how your genes affect your aging process</p>
+            <div id="started1"><h4>GET STARTED!</h4></div>
+            <div id="started2"><p>Your DNA is a next generation anti-aging, designed on your individual DNA Age (your real biological age) to help you look and live better
+            <br><span id="pink">IDDNA WORKS BACAUSE IT'S COMPLETELY PERSONALIZED</span>
+            <br>Although you can not change your genetics, science has now proven that you can dramatically change how your genes affect your aging process</p></div>
         </section>
+        
+        <section class="place"></section>
+        
         <section class="discover">
             <ul>
-                <li>Your uniqu genetic code</li>
-                <li>Discover your IDDNA</li>
-                <li>Follow your IDDNA</li>
+                <li class="discover-list">Your uniqu genetic code
+                <br><span class="small-text">Your DNA is the key! Find the real answers about how much you can actually control your aging.</span></li>
+                <li class="discover-list">Discover your IDDNA
+                <br><span class="small-text">Understand your iDDNA and how lifestyle medicine can help you live better. Your genes don't lie.</span></li>
+                <li class="discover-list">Follow your IDDNA
+                <br><span class="small-text">More than 5.000.000 published studies on DNA. 1 Anti-aging program that puts the science to work for You</span></li>
             </ul>
         </section>
+        
+        <section class="place"></section>
+        
+        <section class="place"></section>
+    
         <section class="booking">
             <h2>Book your consultation</h2>
             <form>

@@ -5,24 +5,11 @@
 nav {
     background-color: blue;
 }
-main {
-    background-color: yellow;
-}
-article {
-    background-color: brown;
-}
-section {
-    background-color: green;
-}
+
 aside {
     background-color: purple;
 }
-section.started {
-    background-color: pink;
-}
-section.discover {
-    background-color: orange;
-}
+
 section.news {
     background-color: yellow;
 }
