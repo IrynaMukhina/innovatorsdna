@@ -5,30 +5,38 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    
+}
+
+.menu {
     margin: 0px;
-}
-
-.menu * {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    list-style-type: none;
     color: #747070;
-    display: inline-block;
-    display: table-cell;
     background-color: #fbf9f9;
-    font-size: 15px;
+    border-top: 7px solid #db1d40;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    padding: 30px;
     width: 100%
+
 }
 
-.menu :hover {
+.li-menu {
+    display: inline-block;
+    height: 95px;
+    border-bottom: 7px solid #fbf9f9;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.li-menu:hover {
     color: #000000;
     background-color: #fdf5f5;
     cursor: pointer;
-}
-
-li {
-    text-align: center;
+    border-bottom: 7px solid #db1d40;
 }
 
 #facebook {
@@ -36,6 +44,7 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     color: #747070;
+    width: 3%;
 }
 
 #twitter {
@@ -43,6 +52,7 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     color: #747070;
+    width: 3%;
 }
 
 #linkedin {
@@ -50,12 +60,16 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     color: #747070;
+    width: 3%;
 }
 
 
 .buttons {
-    margin: 0px;
+    display: flex;
     justify-content: flex-end;
+    margin: 0px;
+}
+.buttons>div {
     margin: 0px;
 }
 
@@ -63,7 +77,7 @@ main {
     display: flex;
     align-items: flex-end;
     width: 100%;
-    height: 671px;
+    height: 665px;
     background-image: url(layer_1-1.jpg);
 }
 
@@ -75,6 +89,7 @@ main>div {
 	font-family: 'Roboto', sans-serif;
 	padding-right: 5%;
 	padding-bottom: 15%;
+	margin-left: 10px;
 }
 
 #title {
@@ -180,7 +195,10 @@ div.chapter>p {
 #started1 {
     width: 35%;
     font-size: 30px;
-    
+    margin-left: 10px;
+}
+#started2 {
+    margin-left: 10px;
 }
 
 .discover {
@@ -190,7 +208,7 @@ div.chapter>p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #db1d40;
+
 
 }
 
@@ -201,6 +219,7 @@ div.chapter>p {
     display: inline-block;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
+    background-color: #db1d40;
 }
 
 .discover-list:hover {
