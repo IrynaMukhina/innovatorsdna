@@ -34,7 +34,7 @@ nav {
 }
 .li-menu:hover {
     color: #000000;
-    background-color: #fdf5f5;
+    background-color: #ffffff;
     cursor: pointer;
     border-bottom: 7px solid #db1d40;
 }
@@ -71,6 +71,29 @@ nav {
 }
 .buttons>div {
     margin: 0px;
+}
+
+#contact-us {
+    margin-top: 5px;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fbf9f9;
+}
+
+#contact-us:hover {
+    cursor: pointer;
+    color: #db1d40;
+}
+
+#location {
+    margin-top: 5px;
+    width: 55%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fbf9f9;
 }
 
 main {
@@ -231,3 +254,26 @@ div.chapter>p {
     font-size: 12px;
 }
 
+.news {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.news>div {
+    width: 350px;
+    height: 240px;
+    background-color: #413f3f;
+    color: #db1d40;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+.news>div:hover {
+    cursor: pointer;
+    background-color: #db1d40;
+    color: #413f3f;
+}
+.title {
+    font-size: 24px;
+}
