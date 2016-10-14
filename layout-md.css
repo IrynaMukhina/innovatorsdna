@@ -118,6 +118,7 @@ main>div {
 
 #title {
     font-size: 48px;
+    color: #ffffff;
 }
 
 #pink {
@@ -447,3 +448,7 @@ h1 {
     background-color: none;
 }
     
+#map {
+    width: 100px;
+    height: 400px;
+}

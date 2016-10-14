@@ -1,4 +1,8 @@
 
+/*global $*/
+/*global google*/
+
+
 $(function () {
     $('#send').click(function(e) {
         e.preventDefault();
@@ -6,22 +10,27 @@ $(function () {
             url: "https://formspree.io/ira_24@ukr.net", 
             method: "POST",
             data: {
-                name2: $('#name2').val()
-                email: $('#email').val()
+            	name: $('#name').val(),
+                email: $('#email').val(),
                 message: $('#message').val()
             },
             dataType: "json"
         }).done(function() {
-            $('form').html('<h1>Thank you!</h1>')
+            $('form').html('<h4><center>Thank you for reaching out! </br> Your message has been successfully sent. </br> I will contact you very soon!</center></h4>')
         }).fail(function(xhr, err) {
             $('form').html(xhr.statusText);
         });        
     })
 });
 
- <label for="name">Your name</label>
-                <input type="text" name="Name" id="name2" placeholder="Surname and First name">
-                <br><label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
-                <br><label for="message">Message</label>
-                <br><textarea name="message" rows="10" cols="30" placeholder="....." id="message"></textarea>
+ function initMap() {
+        var uluru = {lat: 49.85, lng: 24.0166666667};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
