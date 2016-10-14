@@ -240,7 +240,7 @@ div.chapter>p {
 
 .discover-list {
     margin: 0px;
-    width: 300px;
+    width: 290px;
     display: inline-block;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
@@ -248,7 +248,7 @@ div.chapter>p {
     height: 320px;
     text-align: center;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 50px;
 }
 
 .discover-list:hover {
