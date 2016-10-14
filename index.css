@@ -2,17 +2,7 @@
     margin: 0 auto;
     padding: 0;
 }
-nav {
-    background-color: blue;
-}
 
-aside {
-    background-color: purple;
-}
-
-section.news {
-    background-color: yellow;
-}
 section.address {
     background-color: gray;
 }

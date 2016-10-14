@@ -20,18 +20,19 @@ nav {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     width: 100%
-
 }
 
 .li-menu {
-    display: inline-block;
-    height: 95px;
+
     border-bottom: 7px solid #fbf9f9;
     width: 15%;
     text-align: center;
     vertical-align: middle;
+    line-height:95px;
     
 }
+
+    
 .li-menu:hover {
     color: #000000;
     background-color: #ffffff;
@@ -43,7 +44,7 @@ nav {
     background-image: url(iconmonstr-facebook-1.svg);
     background-repeat: no-repeat;
     background-position: center;
-    color: #747070;
+    fill: #747070;
     width: 3%;
 }
 
@@ -51,7 +52,7 @@ nav {
     background-image: url(iconmonstr-twitter-1.svg);
     background-repeat: no-repeat;
     background-position: center;
-    color: #747070;
+    fill: #747070;
     width: 3%;
 }
 
@@ -59,7 +60,7 @@ nav {
     background-image: url(iconmonstr-linkedin-1.svg);
     background-repeat: no-repeat;
     background-position: center;
-    color: #747070;
+    fill: #747070;
     width: 3%;
 }
 
@@ -89,7 +90,7 @@ nav {
 
 #location {
     margin-top: 5px;
-    width: 55%;
+    width: 200px;
     text-align: center;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -227,10 +228,10 @@ div.chapter>p {
 .discover {
 
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    vertical-align: middle;
 
 
 }
@@ -238,11 +239,14 @@ div.chapter>p {
 .discover-list {
     margin: 0px;
     width: 304px;
-    height: 287px;
     display: inline-block;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     background-color: #db1d40;
+    height: 287px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
 }
 
 .discover-list:hover {
@@ -252,17 +256,151 @@ div.chapter>p {
 
 .small-text {
     font-size: 12px;
+    line-height: 10px;
 }
 
+.booking {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 497px;
+    border: 3px solid #ddd4d4;
+    font-size: 18px;
+    color: #ddd4d4;
+    background-color: #303030;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.booking>div {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 47%;
+    height: 33%;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+input {
+    margin-right: 5px;
+    color: #ffffff;
+    background-color: #303030;
+    border: none;
+    border-bottom: 3px solid #db1d40;
+    outline: 0;
+    font-size: 18px;
+}
+
+#username, #password{
+    width: 70%;
+    text-align: left; 
+}
+
+#send {
+    margin-left: 30px;
+    height: 30px;
+    width: 150px;
+    background-color: #424141;
+    border: none;
+}
+
+.booking-log {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
+li.booking-log {
+    list-style-type: none;
+    display: inline;
+}
+
+#facebook-log {
+    background-image: url(iconmonstr-facebook-log.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	font-size: 40px
+	: #ddd4d4;
+}
+
+#twitter-log {
+    background-image: url(iconmonstr-twitter-log.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #747070;
+    width: 50px;
+	height: 50px;
+}
+
+#linkedin-log {
+    background-image: url(iconmonstr-linkedin-log.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+    color: #747070;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #303030;
+}
+
+#text-news {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #303030;
+}
 .news {
     width: 100%;
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.img-news {
+    height: 200px;
+    width: 280px;
+}
+
+.button-news {
+    width: 130px;
+    height: 30px;
+    background-color: #303030;
+    border: none;
+    margin-left: 10px;
+}
+
+#button-news {
+    width: 160px;
+    height: 30px;
+    background-color: #303030;
+    border: none;
+    margin: 0 auto;
+}
+
+.button-news:hover {
+    cursor: pointer;
+    color: #db1d40;
+}
+
 .news>div {
+    margin: 20px; 
     width: 350px;
-    height: 240px;
+    height: 300px;
     background-color: #413f3f;
     color: #db1d40;
     font-family: 'Roboto', sans-serif;
@@ -276,4 +414,34 @@ div.chapter>p {
 }
 .title {
     font-size: 24px;
+    text-align: center;
+    
 }
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 420px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.address>div {
+    margin: auto;
+    height: 100%;
+    line-height: 2;
+}
+
+#name, #email, #message{
+    width: 100%;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: none;
+}
+    
