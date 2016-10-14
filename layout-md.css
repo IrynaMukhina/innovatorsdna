@@ -218,7 +218,7 @@ div.chapter>p {
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
     color: #403f3f;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 #started1 {
     width: 35%;
@@ -373,7 +373,7 @@ h1 {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
 .img-news {
