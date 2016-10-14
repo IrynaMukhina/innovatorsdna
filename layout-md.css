@@ -313,6 +313,10 @@ input {
     border: none;
 }
 
+#submit:hover {
+    color:  #db1d40;
+}
+
 .booking-log {
     margin: 0px;
     display: flex;
