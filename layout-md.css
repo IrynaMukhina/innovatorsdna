@@ -315,6 +315,7 @@ input {
 
 #submit:hover {
     color:  #db1d40;
+    cursor: pointer;
 }
 
 .booking-log {
