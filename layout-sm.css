@@ -125,6 +125,7 @@ div.chapter>p {
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
@@ -153,15 +154,15 @@ div.chapter>p {
 
 .discover-list {
     margin: 0px;
-    width: 64px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     background-color: #db1d40;
-    height: 62px;
     text-align: center;
     vertical-align: middle;
-    line-height: 60px;
+
 }
 
 .discover-list:hover {
@@ -170,3 +171,215 @@ div.chapter>p {
 }
 
 
+.booking {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    border: 3px solid #ddd4d4;
+    font-size: 18px;
+    color: #ddd4d4;
+    background-color: #303030;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.booking>div {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 25%;
+}
+
+h2 {
+    width: 100%;
+    font-size: 20px;
+}
+
+input {
+    margin-right: 5px;
+    color: #ffffff;
+    background-color: #303030;
+    border: none;
+    border-bottom: 3px solid #db1d40;
+    outline: 0;
+    font-size: 14px;
+}
+
+#username, #password{
+    width: 100%;
+    text-align: left; 
+}
+
+#submit {
+    height: 20px;
+    width: 120px;
+    background-color: #424141;
+    border: none;
+}
+
+#submit:hover {
+    color:  #db1d40;
+    cursor: pointer;
+}
+
+.booking-log {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
+li.booking-log {
+    list-style-type: none;
+    display: inline;
+}
+
+#facebook-log {
+    background-image: url(iconmonstr-facebook-log.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+	font-size: 40px
+	: #ddd4d4;
+}
+
+#twitter-log {
+    background-image: url(iconmonstr-twitter-log.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #747070;
+    width: 50px;
+	height: 50px;
+}
+
+#linkedin-log {
+    background-image: url(iconmonstr-linkedin-log.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+	height: 50px;
+    color: #747070;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #303030;
+}
+
+#text-news {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #303030;
+}
+.news {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.img-news {
+    height: 200px;
+    width: 280px;
+}
+
+.button-news {
+    width: 130px;
+    height: 30px;
+    background-color: #303030;
+    border: none;
+    color: #cdcdcd;
+    margin-left: 10px;
+}
+
+.button-news:hover {
+    cursor: pointer;
+    color: #db1d40;
+}
+
+#one-button {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#button-news, #send {
+    width: 160px;
+    height: 30px;
+    background-color: #303030;
+    color: #cdcdcd;
+    border: none;
+}
+
+#button-news, #send:hover {
+    cursor: pointer;
+    color: #db1d40;
+}
+
+.news>div {
+    margin: 20px; 
+    width: 350px;
+    height: 310px;
+    background-color: #413f3f;
+    color: #db1d40;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    
+}
+.news>div:hover {
+    cursor: pointer;
+    background-color: #db1d40;
+    color: #413f3f;
+}
+.title {
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 420px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-color: #db1d40;
+    
+}
+
+.address>div {
+    margin-top: 15px;
+    height: 100%;
+    line-height: 2;
+}
+
+#name, #email, #message{
+    width: 100%;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #db1d40;
+    padding: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+    
+#map {
+    width: 100%;
+    height: 400px;
+}
