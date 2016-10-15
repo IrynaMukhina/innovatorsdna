@@ -174,10 +174,10 @@ div.chapter>p {
 .booking {
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 400px;
+    height: 500px;
     border: 3px solid #ddd4d4;
     font-size: 18px;
     color: #ddd4d4;
@@ -188,14 +188,16 @@ div.chapter>p {
 
 .booking>div {
     margin-left: 10px;
-    margin-top: 10px;
+    margin: 10px;
     width: 100%;
-    height: 25%;
+    height: 33%;
 }
 
 h2 {
+    margin-top: 15px;
+    text-align: center;
     width: 100%;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 input {
@@ -225,53 +227,11 @@ input {
     cursor: pointer;
 }
 
-.booking-log {
-    width: 100%;
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    list-style-type: none;
-}
-
-li.booking-log {
-    list-style-type: none;
-    display: inline;
-}
-
-#facebook-log {
-    background-image: url(iconmonstr-facebook-log.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50px;
-	height: 50px;
-	font-size: 40px
-	: #ddd4d4;
-}
-
-#twitter-log {
-    background-image: url(iconmonstr-twitter-log.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #747070;
-    width: 50px;
-	height: 50px;
-}
-
-#linkedin-log {
-    background-image: url(iconmonstr-linkedin-log.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50px;
-	height: 50px;
-    color: #747070;
-}
-
 h1 {
     width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 38px;
     color: #303030;
 }
 
