@@ -41,6 +41,10 @@ main {
     color: #ffffff;
 }
 
+.pink {
+    color: #db1d40;
+}
+
 .services {
     margin: 0px;
     width: 100%;
@@ -329,7 +333,7 @@ h1 {
 }
 
 #name, #email, #message{
-    width: 88%;
+    width: 86%;
     border: 3px solid #ffffff;
     color: #ffffff;
     font-size: 18px;
