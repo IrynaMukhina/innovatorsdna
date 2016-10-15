@@ -219,14 +219,14 @@ input {
     text-align: left; 
 }
 
-#submit {
+#login {
     height: 20px;
     width: 120px;
     background-color: #424141;
     border: none;
 }
 
-#submit:hover {
+#login:hover {
     color:  #db1d40;
     cursor: pointer;
 }
