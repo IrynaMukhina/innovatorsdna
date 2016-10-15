@@ -16,7 +16,7 @@ $(function () {
             },
             dataType: "json"
         }).done(function() {
-            $('form').html('<h4><center>Thank you for reaching out! </br> Your message has been successfully sent. </br> I will contact you very soon!</center></h4>')
+            $('form').html('<h4><center>Thank you! </br> Your message has been successfully send!</center></h4>')
         }).fail(function(xhr, err) {
             $('form').html(xhr.statusText);
         });        
