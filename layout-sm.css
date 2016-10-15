@@ -21,9 +21,9 @@ body {
 
 #location {
     margin-top: 5px;
-    width: 100px;
+    width: 160px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     background-color: #fbf9f9;
 }
@@ -126,13 +126,13 @@ div.chapter>p {
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #403f3f;
     background-color: #f0f0f0;
 }
 #started1 {
-    width: 35%;
+    width: 100%;
     font-size: 15px;
     margin-left: 10px;
 }
