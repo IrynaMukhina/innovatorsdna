@@ -400,13 +400,16 @@ h1 {
     color: #db1d40;
 }
 
+#one-button {
+    margin: 0 auto;
+}
+
 #button-news, #send {
     width: 160px;
     height: 30px;
     background-color: #303030;
     color: #cdcdcd;
     border: none;
-    margin: 0 auto;
 }
 
 #button-news, #send:hover {
