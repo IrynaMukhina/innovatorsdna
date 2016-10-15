@@ -9,6 +9,7 @@ body {
 }
 
 .buttons {
+    background-color: black;
     display: flex;
     width: 100%;
     justify-content: flex-end;
@@ -34,6 +35,11 @@ main {
     width: 100%;
     height: 300px;
     background-image: url(images/background/layer_1-2.jpg);
+}
+
+#title {
+    font-size: 30px;
+    color: #ffffff;
 }
 
 .services {
@@ -85,7 +91,7 @@ span.center {
 
 section.place {
     width: 100%;
-    height: 45px;
+    height: 20px;
 }
 
 aside {
@@ -98,16 +104,11 @@ aside {
     background-color: #db1d40;
 }
 
-#chapter-img {
-    width:auto;
-    max-width:100%;
-    height:auto;
-}
 
 .chapter {
-    width: 47%;
-    height: 470px;
-    margin: 10px;
+    width: 100%;
+    height: 242px;
+    margin: 5px;
     font-family: 'Roboto', sans-serif;
     height: 100%;
 }
@@ -169,8 +170,4 @@ div.chapter>p {
     cursor: pointer;
 }
 
-#title {
-    font-size: 20px;
-    color: #ffffff;
-}
 
