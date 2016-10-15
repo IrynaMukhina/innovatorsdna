@@ -1,4 +1,5 @@
 body {
+    
     max-width: 920px;
     margin: 0 auto;
     background: url(images/fon.jpg);
@@ -67,6 +68,7 @@ nav {
 
 .buttons {
     display: flex;
+    width: 100%;
     justify-content: flex-end;
     margin: 0px;
 }
@@ -287,6 +289,7 @@ div.chapter>p {
 }
 
 h2 {
+    width: 100%;
     font-size: 42px;
 }
 
@@ -319,6 +322,7 @@ input {
 }
 
 .booking-log {
+    width: 100%;
     margin: 0px;
     display: flex;
     justify-content: space-between;
@@ -360,6 +364,7 @@ li.booking-log {
 }
 
 h1 {
+    width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
@@ -367,6 +372,7 @@ h1 {
 }
 
 #text-news {
+    width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -401,7 +407,8 @@ h1 {
 }
 
 #one-button {
-    margin:  auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #button-news, #send {
