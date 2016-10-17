@@ -7,6 +7,68 @@ body {
     display: none;
 }
 
+.menu {
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: #747070;
+    background-color: #fbf9f9;
+    border-top: 3px solid #db1d40;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%
+}
+
+.li-menu {
+
+    border-bottom: 3px solid #fbf9f9;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height:25px;
+    
+}
+
+    
+.li-menu:hover {
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-bottom: 3px solid #db1d40;
+}
+
+#facebook {
+    background-image: url(iconmonstr-facebook-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    width: 33%;
+    background-size: 17px 25px;
+}
+
+#twitter {
+    background-image: url(iconmonstr-twitter-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    width: 33%;
+    background-size: 20px 20px;
+
+}
+
+#linkedin {
+    background-image: url(iconmonstr-linkedin-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    width: 33%;
+    background-size: 20px 20px;
+}
+
+
 .buttons {
     background-color: black;
     display: flex;
